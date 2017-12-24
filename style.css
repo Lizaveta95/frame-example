@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya:400,700");
+
+body {
+  font-family: "Alegreya";
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.source {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.ramka {
+  position: relative;
+  margin: 0 auto;
+  width: 50vw;
+  max-width: 700px;
+  min-width: 300px;
+  min-height: 220px;
+}
+
+.u1,
+.u2,
+.u3,
+.u4 {
+  background-image: url("http://fe.it-academy.by/Sites/0024810/u1u1.png");
+  width: 47.5px;
+  height: 47.5px;
+  background-size: contain;
+  position: absolute;
+}
+
+.u2 {
+  right: 0;
+  transform: rotate(90deg);
+}
+
+.u3 {
+  bottom: 0;
+  transform: rotate(-90deg);
+}
+
+.u4 {
+  right: 0;
+  bottom: 0;
+  transform: rotate(180deg);
+}
+
+.border-top,
+.border-bottom {
+  position: absolute;
+  height: 19.2px;
+  background-image: url("http://fe.it-academy.by/Sites/0024810/side1.png");
+  background-size: contain;
+  left: 47.5px;
+  right: 47.5px;
+}
+
+.border-left,
+.border-right {
+  position: absolute;
+  top: 47.5px;
+  bottom: 47.5px;
+  width: 19px;
+  background-image: url("http://fe.it-academy.by/Sites/0024810/side2.png");
+  background-size: contain;
+}
+
+.border-bottom {
+  bottom: -1.281px;
+}
+
+.border-right {
+  right: 0px;
+}
+
+.quote{
+  position: relative;
+  font-size: 1.5em;
+  padding: 50px;
+  text-align: center;
+}
+
+.button-block {
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+#nextQuote {
+  position: absolute;
+  font-size: 1.5em;
+  text-align: center;
+  width: 360px;
+  color: black;
+  font-weight: 700;
+  border: 15px double black;
+  text-decoration: none;
+  padding: 10px 0;
+  margin-left: -180px;
+  left: 50%;
+  text-transform: uppercase;
+}
